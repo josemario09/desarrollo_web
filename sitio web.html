@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Elaborado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 15px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f9f9f9;
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Sitio Web Elaborado</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#Testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Este es un sitio web de ejemplo creado con HTML, CSS y JavaScript. Aquí puedes encontrar información sobre mí y los servicios que ofrezco.</p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Me llamo Juan Pérez, soy desarrollador web con más de 5 años de experiencia en la creación de sitios responsivos y aplicaciones interactivas. Me apasiona la tecnología y siempre busco aprender cosas nuevas.</p>
+        <p>He trabajado con diversas tecnologías como HTML, CSS, JavaScript, React y Node.js. Mi objetivo es ayudar a las empresas a mejorar su presencia en línea y optimizar sus procesos digitales.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="card">
+            <h3>Desarrollo Web</h3>
+            <p>Ofrezco servicios de desarrollo web a medida, desde sitios estáticos hasta aplicaciones web complejas. Utilizo las últimas tecnologías para garantizar un rendimiento óptimo.</p>
+        </div>
+        <div class="card">
+            <h3>Consultoría</h3>
+            <p>Brindo consultoría para ayudar a las empresas a mejorar su presencia en línea y optimizar sus procesos digitales. Mi enfoque es personalizado y adaptado a las necesidades de cada cliente.</p>
+        </section>
+
+    <section id="Testimonios">
+        <h2>Testimonios</h2>
+        <div class="card">
+            <h3>Desarrollo Web</h3>
+            <p>Ofrezco servicios de desarrollo web a medida, desde sitios estáticos hasta aplicaciones web complejas. Utilizo las últimas tecnologías para garantizar un rendimiento óptimo.</p>
+        </div>
+        <div class="card">
+            <h3>Consultoría</h3>
+            <p>Brindo consultoría para ayudar a las empresas a mejorar su presencia en línea y optimizar sus procesos digitales. Mi enfoque es personalizado y adaptado a las necesidades de cada cliente.</p>
+        </section>
+    <section id="galeria">
+            <h2>Galería</h2>
+            <div class="galeria">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Imagen del Espacio 1">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Imagen del Espacio 2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR79Lbz6VO8Z3V8qQtqHcmT6WTqpwx-j20n1A&s" alt="Imagen del Espacio 3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY7xJ4bNPYQdlYQAys7Sl8WMhA-uQ8NEVpZg&s" alt="Imagen del Espacio 4">
+            </div>
+        </section>
+    
